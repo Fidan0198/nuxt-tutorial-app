@@ -12,15 +12,18 @@
       <div class="nav__link">
         <nuxt-link to="/About">About</nuxt-link>
       </div>
+      <div class="nav__link">
+        <nuxt-link to="/List">List</nuxt-link>
+      </div>
     </nav>
   </header>
 </template>
 <script>
-import Logo from "~/components/Logo";
+import logo from "~/components/Logo.vue";
 export default {
   name: "nav-bar",
   components: {
-    Logo
+    logo
   }
 };
 </script>

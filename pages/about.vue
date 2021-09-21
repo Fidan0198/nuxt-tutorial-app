@@ -74,6 +74,7 @@ export default {
       ]
     };
   },
+
   methods: {
     storeDirectoryInfo(dir) {
       this.$store.commit("saveInfo", {
